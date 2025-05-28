@@ -2,7 +2,6 @@ backend:
   name: github
   repo: dedalizonte/test-ca
   branch: main
-  client_id: Ov23livKCl7k9k6zAFkG
 
 media_folder: "docs/img"
 public_folder: "/img"
