@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: dedalizonte/test-ca
+  branch: main
+
+media_folder: "docs/img"
+public_folder: "/img"
+
+collections:
+  - name: "paginas"
+    label: "Páginas de Ayuda"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
