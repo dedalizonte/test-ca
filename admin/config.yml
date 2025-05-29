@@ -3,6 +3,7 @@ backend:
   repo: dedalizonte/test-ca
   branch: main
 
+
 media_folder: "docs/img"
 public_folder: "/img"
 
